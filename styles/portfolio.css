@@ -196,7 +196,8 @@ main {
 
 .resume-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* gap: 50px; */
 }
 
 .resume-column-title {
@@ -231,4 +232,9 @@ main {
     width: 405px;
     text-align: justify;
     margin-bottom: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
