@@ -242,14 +242,20 @@ main {
 /* footer section started */
 footer {
     /* width: 1430px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 130px;
     background: #FFF8F3;
+    gap: 100px;
+    padding: 130px 250px;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.footer-column {
+    width: 50%;
 }
 
 .footer-column-name {
@@ -265,6 +271,22 @@ footer {
     width: 560px;
 }
 
-.social-links-img{
+.social-links-img {
     margin-right: 10px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Open Sans;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
