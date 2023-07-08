@@ -149,7 +149,7 @@ main {
 }
 
 /* what-i-do section */
-.what-i-do{
+.what-i-do {
     /* border-radius: 10px; */
     margin: 130px 0px;
 }
@@ -189,4 +189,46 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    text-align: justify;
+}
+
+/* resume section started */
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-items{
+    margin-bottom: 30px;
+}
+
+.degree-name {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.institute-name {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.degree-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 405px;
+    text-align: justify;
+    margin-bottom: 30px;
 }
